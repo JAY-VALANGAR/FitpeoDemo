@@ -1,7 +1,12 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.FitpeoDemo" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="CustomProgressBarStyle" parent="android:Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/custom_progress_drawable</item>
+        <item name="android:indeterminateDuration">3000</item>
     </style>
 </resources>
